@@ -1,11 +1,11 @@
-const CACHE = 'hoenn-dex-v4';
+const CACHE = 'hoenn-dex-v5';
 const ASSETS = [
   './',
   './index.html',
-  './styles.v4.css',
-  './app_all.v4.js',
-  './app_data_all.json?v=4',
-  './manifest.webmanifest?v=4',
+  './styles.v5.css',
+  './app_all.v5.js',
+  './app_data_all.json?v=5',
+  './manifest.webmanifest?v=5',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];
@@ -24,8 +24,7 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
-
-  if (url.pathname.endsWith('app_data_all.json') || url.searchParams.get('v') === '4') {
+  if (url.pathname.endsWith('app_data_all.json') || url.searchParams.get('v') === '5') {
     e.respondWith((async () => {
       const cache = await caches.open(CACHE);
       const cached = await cache.match(e.request);
@@ -37,6 +36,5 @@ self.addEventListener('fetch', (e) => {
     })());
     return;
   }
-
   e.respondWith(caches.match(e.request).then(resp => resp || fetch(e.request)));
 });

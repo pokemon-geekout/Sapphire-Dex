@@ -7829,14 +7829,14 @@
         "",
         ""
       ],
-      "name_idx": -1,
-      "dex_idx": -1,
+      "name_idx": 7,
+      "dex_idx": null,
       "rows": [
         {
           "Special Catches & Glitches — Detailed Guide": "Name / Category",
           "": "Serebii Link",
-          "_Name": "Difficulty",
-          "_Link": "https://www.serebii.net/pokemon/difficulty/",
+          "_Name": "Serebii Link",
+          "_Link": "https://www.serebii.net/pokemon/serebiilink/",
           "_Dex": null,
           "_styles": {
             "Special Catches & Glitches — Detailed Guide": {
@@ -7850,8 +7850,8 @@
         {
           "Special Catches & Glitches — Detailed Guide": "Regi Trio Unlock Sequence",
           "": null,
-          "_Name": "Regi Trio Unlock Sequence",
-          "_Link": "https://www.serebii.net/pokemon/regitriounlocksequence/",
+          "_Name": "",
+          "_Link": null,
           "_Dex": null,
           "_styles": {
             "": {
@@ -7886,8 +7886,8 @@
         {
           "Special Catches & Glitches — Detailed Guide": "Pomeg Glitch",
           "": null,
-          "_Name": "Pomeg Glitch",
-          "_Link": "https://www.serebii.net/pokemon/pomegglitch/",
+          "_Name": "",
+          "_Link": null,
           "_Dex": null,
           "_styles": {
             "": {
@@ -7898,8 +7898,8 @@
         {
           "Special Catches & Glitches — Detailed Guide": "Berry Glitch Fix",
           "": null,
-          "_Name": "Berry Glitch Fix",
-          "_Link": "https://www.serebii.net/pokemon/berryglitchfix/",
+          "_Name": "",
+          "_Link": null,
           "_Dex": null,
           "_styles": {
             "": {
@@ -7910,8 +7910,8 @@
         {
           "Special Catches & Glitches — Detailed Guide": "Battle Tower Cloning",
           "": null,
-          "_Name": "Battle Tower Cloning",
-          "_Link": "https://www.serebii.net/pokemon/battletowercloning/",
+          "_Name": "",
+          "_Link": null,
           "_Dex": null,
           "_styles": {
             "": {
@@ -7934,8 +7934,8 @@
         {
           "Special Catches & Glitches — Detailed Guide": "Softlock Prevention",
           "": null,
-          "_Name": "Softlock Prevention",
-          "_Link": "https://www.serebii.net/pokemon/softlockprevention/",
+          "_Name": "",
+          "_Link": null,
           "_Dex": null,
           "_styles": {
             "": {
